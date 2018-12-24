@@ -61,7 +61,7 @@ def add_s(array)
     if array[1] == item
       item
     else
-      word + "s"
+      item + "s"
     end
   end
 end
