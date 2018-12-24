@@ -15,6 +15,7 @@ def sort_array_desc(array)
       1
     end
   end
+end
 
   
 
