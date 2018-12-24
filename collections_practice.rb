@@ -79,7 +79,8 @@ def sum_array(array)
   count
 end
 
-#dd an "s" to each word in the array except for the 2nd element in the array
+#add an "s" to each word in the array except for the 2nd element in the array
+#expect(add_s(["hand","feet", "knee", "table"])).to eq(["hands","feet", "knees", "tables"])
 
 def add_s(array)
   array.collect do |item|
