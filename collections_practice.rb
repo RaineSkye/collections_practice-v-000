@@ -56,5 +56,13 @@ def sum_array(array)
   count
 end
 
-def add_s
+def add_s(array)
+  array.collect do |word|
+    if array[1] == plural
+      plural
+    else
+      word + "s"
+    end
+  end
 end
+  
