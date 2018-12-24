@@ -24,10 +24,8 @@ end
 def swap_elements
 end
 
-def reverse_array(array)
-  array.sort do |a, b|
-  a <=> b
-reverse
+def reverse_array
+
 end
 end
 
