@@ -18,8 +18,8 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.sort do |a, b|
-  a.length <=> b.length
+  array.length.sort do |a, b|
+  a <=> b
 end
 
 def swap_elements
