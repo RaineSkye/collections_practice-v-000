@@ -27,7 +27,6 @@ end
 def reverse_array
 
 end
-end
 
 def kesha_maker
 end
