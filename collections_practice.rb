@@ -53,6 +53,7 @@ def sum_array(array)
   array.each do |item|
     count += item
   end
+  count
 end
 
 def add_s
