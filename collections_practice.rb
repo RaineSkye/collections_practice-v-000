@@ -27,8 +27,8 @@ end
 def reverse_array(array)
   array.sort do |a, b|
   a <=> b
-end
 reverse
+end
 end
 
 def kesha_maker
