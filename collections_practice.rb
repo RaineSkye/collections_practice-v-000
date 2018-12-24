@@ -57,9 +57,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |word|
-    if array[1] == plural
-      plural
+  array.collect do |item|
+    if array[1] == item
+      item
     else
       word + "s"
     end
